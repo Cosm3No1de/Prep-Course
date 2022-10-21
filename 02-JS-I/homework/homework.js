@@ -7,7 +7,7 @@ const nuevaString = "Hola";
 const nuevoNum = 2;
 
 // Crea una variable booleana:
-const nuevoBool = trust;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -48,15 +48,15 @@ function resta(x, y) {
 }
 
 function multiplica(x, y) {
-  var mul = x * y;
-  return mul// Multiplica "x" por "y" y devuelve el valor
+
+  return x * y;// Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   
 }
 
 function divide(x, y) {
-  var div = x / y; 
-  return div;// Divide "x" entre "y" y devuelve el valor
+  
+  return  x / y;// Divide "x" entre "y" y devuelve el valor
   // Tu código:
   
 }
@@ -75,13 +75,9 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:  
-  if (str1.length == str2.length)
- { return true;
- } else  { 
-  return false; 
-    }
-  }
-  
+  return str1.length == str2.length;
+ 
+}
 
 
 function menosQueNoventa(num) {
@@ -103,17 +99,15 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 50)
-  {return true;}
-  else {return false;}
+ return num >50; 
   
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var resto = x % y;
-  return resto; 
+ 
+  return x % y; 
 }
 
 function esPar(num) {
@@ -152,8 +146,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var cub = num * num * num;
-   return cub;
+ return num * num * num;
   
 }
 
@@ -201,10 +194,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  var a = 'Hello world';
-  var b = '!';
-  a = a.concat(b);
-  console.log(a);
+  return str + '¡';
 
 }
 
@@ -268,8 +258,8 @@ function esVocal(letra){
   }
   return "Dato incorrecto"
   
-}
 
+}
 
 
 // No modificar nada debajo de esta línea
